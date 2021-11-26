@@ -22,7 +22,7 @@ public class Application {
 		 ConfigurableEnvironment configurableEnvironment = applicationContext.getEnvironment();
          ApiConst.CONFIGURABLE_PROPERTIES = configurableEnvironment;
 		logger.debug("environment.getProperty(\"spring.mail.username\") " + configurableEnvironment.getProperty("spring.mail.username"));
-		 logger.debug("environment.getProperty(\"spring.jpa.show-sql\") " + configurableEnvironment.getProperty("spring.datasource.url"));
+		 logger.debug("environment.getProperty(\"spring.mail.password\") " + configurableEnvironment.getProperty("spring.datasource.url"));
     }
 
 }
